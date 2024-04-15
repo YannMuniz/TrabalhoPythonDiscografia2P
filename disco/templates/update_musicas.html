@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <form action="{% url 'disco:update_musicas' id %}" method="POST">
+        {% csrf_token %}
+        <h3>{{ form }}</h3>
+
+        <button type="submit">Salvar</button>
+        <a href="{% url 'disco:list_musicas' %}">Voltar</button>
+    </form>
+{% endblock %}
