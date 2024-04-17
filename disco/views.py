@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .models import Albuns, Musicas, Bandas
+from .models import Musicas
 from .forms import MusicasForm
 # Create your views here.
 
@@ -37,7 +37,6 @@ def update_musicas(request, id):
             'id' : id
         }
         return render(request, template_name, context)
-
 
 def del_musicas(request, id):
     musicas = Musicas.objects.get(id=id)
