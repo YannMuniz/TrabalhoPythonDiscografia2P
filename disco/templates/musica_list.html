@@ -2,7 +2,7 @@
 
 {% block content %}
     <br><br>
-    <a href=" {% url 'disco:new_musicas' %} ">Nova Música</a>
+    <a href=" {% url 'disco:musica_new' %} ">Nova Música</a>
     <br><br>
 
     <table>
@@ -23,8 +23,8 @@
                 <td>{{ musica.segundos }}</td>
                 <td>{{ musica.album }}</td>
                 <td>{{ musica.album.Banda }}</td>
-                <td><a href="{% url 'disco:update_musicas' musica.id %}">Editar</a></td>
-                <td><a href="{% url 'disco:del_musicas' musica.id %}">Deletar</a></td>
+                <td><a href="{% url 'disco:musica_edit' musica.id %}">Editar</a></td>
+                <td><a href="{% url 'disco:musica_delete' musica.id %}">Deletar</a></td>
             </tr>
             {% endfor %}
             </tbody>

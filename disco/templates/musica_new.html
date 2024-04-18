@@ -1,12 +1,12 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<form action="{% url 'disco:new_musicas' %}" method="POST">
+<form action="{% url 'disco:musica_new' %}" method="POST">
     {% csrf_token %}
     <h3>{{ form }}</h3>
 
     
     <button type="submit">Salvar</button>
-    <a href="{% url 'disco:list_musicas' %}">Voltar</button>
+    <a href="{% url 'disco:musica_list' %}">Voltar</button>
 </form>
 {% endblock %}

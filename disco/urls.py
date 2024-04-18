@@ -1,11 +1,11 @@
 from django.urls import path
-from .views import list_musicas, new_musicas, del_musicas, update_musicas
+from .views import musica_list, musica_new, musica_delete, musica_edit
 
 app_name = 'disco'
 
 urlpatterns = [
-    path('list_musicas/', list_musicas, name="list_musicas"),
-    path('new_musicas/', new_musicas, name="new_musicas"),
-    path('update_musicas/<int:id>/', update_musicas, name="update_musicas"),
-    path('del_musicas/<int:id>/', del_musicas, name="del_musicas"),
+    path('musica_list/', musica_list, name="musica_list"),
+    path('musica_new/', musica_new, name="musica_new"),
+    path('musica_edit/<int:id>/', musica_edit, name="musica_edit"),
+    path('musica_delete/<int:id>/', musica_delete, name="musica_delete"),
 ]

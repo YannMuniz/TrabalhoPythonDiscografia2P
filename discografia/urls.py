@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from disco.views import list_musicas
+from disco.views import musica_list
 from core.views import index
 
 urlpatterns = [
