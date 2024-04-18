@@ -1,5 +1,5 @@
 from django import forms
-from .models import Musicas, Bandas, Albuns
+from .models import Musicas
 
 class MusicasForm(forms.ModelForm):
     class Meta:
