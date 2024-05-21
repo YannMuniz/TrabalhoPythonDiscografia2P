@@ -14,9 +14,9 @@ Termine com um exemplo de como obter dados do sistema ou como usá-los para uma 
 
 Mencione as ferramentas que você usou para criar seu projeto
 
-* [Python]() - Linguagem Backend usada
-* [Djando]() - Fremework usado
-* [SQLite3]() - Banco de dados
+* [Python] - Linguagem Backend usada
+* [Djando] - Fremework usado
+* [SQLite3] - Banco de dados
 
 ## ✒️ Autores
 
