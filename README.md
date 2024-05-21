@@ -2,22 +2,18 @@
 
 Trabalho desenvolvido em Python usando Django 
 
-## 🚀 Começando
+## 🚀 Funcionalidade
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
-
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
-
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
+Ao entrar na tela principal, irá se deparar com a página principal em que ao clicar no link, você será mandado para a listagem das músicas. Ao clicar em Nova Música, você poderá incluir novas músicas na listagem, e quando quiser alterar ou deletar alguma dessas músicas incluídas, você terá a opção de realizar essas operações nos botões de Editar e Deletar.
 
 ## 🛠️ Construído com
 
 Mencione as ferramentas que você usou para criar seu projeto
 
-* [Python] - Linguagem Backend usada
-* [Djando] - Fremework usado
-* [SQLite3] - Banco de dados
+* Python - Linguagem Backend usada
+* Djando - Fremework usado
+* SQLite3 - Banco de dados
 
 ## ✒️ Autores
 
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
+* **Yann Muniz** - *Trabalho Inicial* - [Yann Muniz](https://github.com/YannMuniz)
