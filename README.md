@@ -14,9 +14,10 @@ Mencione as ferramentas que você usou para criar seu projeto
 * Djando - Fremework usado
 * SQLite3 - Banco de dados
 
-## ✒️ Autores
+## ✒️ Autor
 
 * **[Yann Muniz](https://github.com/YannMuniz)**
 
-* ## Professor 
+* ## Professor
+  
 * **[André Ricardo](https://github.com/andrepraz)**
