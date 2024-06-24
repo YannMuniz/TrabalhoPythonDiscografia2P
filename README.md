@@ -16,4 +16,7 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 ## ✒️ Autores
 
-* **Yann Muniz** - *Trabalho Inicial* - [Yann Muniz](https://github.com/YannMuniz)
+* **[Yann Muniz](https://github.com/YannMuniz)**
+
+* ## Professor 
+* **[André Ricardo](https://github.com/andrepraz)**
